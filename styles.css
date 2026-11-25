@@ -19,5 +19,8 @@ li { margin: 8px 0; }
 footer { border-top: 1px solid var(--line); margin-top: 24px; padding-bottom: 40px; }
 .skip { position: absolute; top: -100px; left: 16px; padding: 12px; background: white; }
 .skip:focus { top: 12px; }
+.support-action { margin: 24px 0 16px; }
+.email-button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 24px; border: 2px solid var(--ink); border-radius: 8px; background: var(--accent); color: var(--ink); font-weight: 700; text-decoration: none; }
+.email-button:hover { text-decoration: underline; }
 @media (max-width: 420px) { header, main, footer { padding-left: 20px; padding-right: 20px; } }
 @media print { header, .skip { display: none; } main { max-width: none; } a { color: inherit; } }
